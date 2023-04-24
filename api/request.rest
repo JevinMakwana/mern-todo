@@ -1,0 +1,19 @@
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "start new project"
+}
+
+###
+
+GET http://localhost:3001/todos
+
+###
+
+DELETE http://localhost:3001/todo/delete/641d9ca34efe730b34e62cb9
+
+
+###
+
+PUT http://localhost:3001/todo/iscom/641dcec07be009e6eb54bbc4
